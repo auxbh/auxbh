@@ -16,5 +16,4 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: Europe/Paris
-          plugin_introduction: no
-          plugin_introduction_title: yes
+          base: header
